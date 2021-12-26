@@ -1,0 +1,28 @@
+.btn {
+  padding: 2px 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 400;
+  height: 29px;
+  width: auto;
+  line-height: 1.5;
+}
+
+.btnEdit {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btnDelete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btnSuccess {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

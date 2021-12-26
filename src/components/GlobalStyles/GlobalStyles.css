@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.d__flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex__basis__15 {
+  flex: 1;
+}
+
+.flex__basis__85 {
+  flex: 5;
+}
+
+.container {
+  width: 92%;
+  margin: 0px auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.btn {
+  padding: 2px 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 400;
+  height: 29px;
+  width: auto;
+  line-height: 1.5;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.readOnly {
+  background-color: #e9ecef !important;
+  opacity: 1;
+}
